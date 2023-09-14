@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Kinghoot";
+  src: url("../../fonts/Kinghood.otf");
+}
+@font-face {
+  font-family: "Caramello-free";
+  src: url("../../fonts/Caramello-Free.otf");
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #625e5c;
+  background: #e1ddd9;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.jf-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-decor-none {
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+.main-nav_logo {
+  text-decoration: none;
+  font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #171412;
+  display: flex;
+  align-items: center;
+}
+.main-nav_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-nav_item {
+  margin: 0 18px;
+  list-style: none;
+}
+.main-nav_link {
+  text-transform: capitalize;
+}
+
+.services-card {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #625e5c;
+  background: #e1ddd9;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.jf-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-decor-none {
+  text-decoration: none;
+}

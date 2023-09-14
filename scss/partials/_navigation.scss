@@ -1,0 +1,29 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  
+  &_logo {
+    text-decoration: none;
+    font-family: $title-family;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: $title-color;
+    display: flex;
+    align-items: center;
+  }
+  &_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &_item {
+    margin: 0 18px;
+    list-style: none;
+  }
+
+  &_link {
+    text-transform: capitalize;
+  }
+}
