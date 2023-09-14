@@ -3,8 +3,17 @@
   &-card {
     display: flex;
 
+    &_img {
+      border-right: 500px;
+
+    }
+
     &_client {
 
     }
   }
+}
+
+.adad {
+  font-size: 150px;
 }

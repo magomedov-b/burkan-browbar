@@ -107,4 +107,14 @@ body {
   color: #e66445;
 }
 
+.services-card {
+  display: flex;
+}
+.services-card_img {
+  border-right: 500px;
+}
+.adad {
+  font-size: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */
