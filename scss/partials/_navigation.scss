@@ -1,6 +1,10 @@
 .main-nav {
+  border-top: 0.01em solid #949190;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
   
   &_logo {
     text-decoration: none;
@@ -25,5 +29,12 @@
 
   &_link {
     text-transform: capitalize;
+    text-decoration: none;
+    color: $title-color;
+    font-size: 16px;
+    transition: 150ms ease-in;
+    &:hover {
+      color: $special-color;
+    }
   }
 }

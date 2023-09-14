@@ -54,3 +54,10 @@ body {
 .text-decor-none {
   text-decoration: none;
 }
+
+.title {
+  color: $title-color;
+  font-size: $title-size;
+  font-family: $title-family;
+  font-weight: 300;
+}
