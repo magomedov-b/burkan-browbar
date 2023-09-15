@@ -1,24 +1,59 @@
 .services {
   background-color: #A5644E;
 
+
   &-card {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    &_subItem {
+      display: inline-block;
+      overflow: hidden;
+      border-radius: 500px;
+      border: solid 1px #ffffff;
+    }
+
+    &_items {
+
+
+    }
+    &_item {
+      overflow: hidden;
+      display: block;
+    }
+
 
     &_title {
       font-family: $title-family;
       text-align: center;
       font-size: 55px;
       line-height: 68px;
+      color: #FAF6F5;
+      padding-top: 80px;
+    }
+
+    &_special {
+      margin-left: -20px;
+      width: 35%;
+      white-space: nowrap;
+      font-size: 80px;
     }
 
     &_client {
-
+      display: flex;
+      justify-content: right;
+      align-items: center;
     }
 
     &_img {
+      display: block;
+      transition: 1s;
       border-radius: 500px;
-      border: solid 1px #ffffff;
 
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }

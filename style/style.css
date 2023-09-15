@@ -124,16 +124,45 @@ body {
 }
 .services-card {
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.services-card_subItem {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 500px;
+  border: solid 1px #ffffff;
+}
+.services-card_item {
+  overflow: hidden;
+  display: block;
 }
 .services-card_title {
   font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
   text-align: center;
   font-size: 55px;
   line-height: 68px;
+  color: #FAF6F5;
+  padding-top: 80px;
+}
+.services-card_special {
+  margin-left: -20px;
+  width: 35%;
+  white-space: nowrap;
+  font-size: 80px;
+}
+.services-card_client {
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 .services-card_img {
+  display: block;
+  transition: 1s;
   border-radius: 500px;
-  border: solid 1px #ffffff;
+}
+.services-card_img:hover {
+  transform: scale(1.1);
 }
 
 .main-block {
