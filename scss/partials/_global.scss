@@ -62,6 +62,12 @@ body {
   font-weight: 300;
 }
 
+.special-title {
+  color: $special-color;
+  font-family: $special-family;
+  font-size: $special-size;
+}
+
 .subtitle {
   font-size: $subtitle-size;
   color: $subtitle-color;

@@ -1,4 +1,6 @@
 .main-block {
+  padding-bottom: 30px;
+  border-bottom: 1px solid $subtitle-color;
   &_flex {
     display: flex;
     flex-direction: row;
@@ -38,7 +40,7 @@
   }
   &_spin {
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 0;
     &_text {
       letter-spacing: 1.7px;
@@ -53,7 +55,7 @@
   &_icon-play {
     position: absolute;
     top: 50%; 
-    left: 50%; 
+    left: 54%; 
     transform: translate(-50%, -50%);
     clip-path: polygon(9.5% 0.5%, 91% 50%, 9.5% 99.5%);
     width: 37px;
