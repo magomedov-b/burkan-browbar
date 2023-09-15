@@ -174,9 +174,10 @@ body {
   display: block;
   transition: 1s;
   border-radius: 500px;
+  transform: scale(1.1);
 }
 .services-card_img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .main-block {
