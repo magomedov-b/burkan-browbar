@@ -66,10 +66,19 @@ body {
   color: $special-color;
   font-family: $special-family;
   font-size: $special-size;
+  font-weight: 300;
 }
 
 .subtitle {
   font-size: $subtitle-size;
   color: $subtitle-color;
   line-height: 35px;
+}
+
+.btn {
+  border: none;
+  padding: 21px 54px;
+  color: #fff;
+  font-size: 18px;
+  font-family: $subtitle-family;
 }

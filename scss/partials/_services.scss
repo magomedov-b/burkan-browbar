@@ -6,21 +6,23 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 35px;
 
     &_subItem {
       display: inline-block;
       overflow: hidden;
-      border-radius: 500px;
-      border: solid 1px #ffffff;
     }
 
     &_items {
-
-
+      border: solid 1px #ffffff;
+      border-radius: 500px;
+      padding: 10px;
     }
+
     &_item {
       overflow: hidden;
       display: block;
+      border-radius: 500px;
     }
 
 

@@ -73,12 +73,21 @@ body {
   color: #e66445;
   font-family: "Caramello-free", sans-serif;
   font-size: 80px;
+  font-weight: 300;
 }
 
 .subtitle {
   font-size: 18px;
   color: #625e5c;
   line-height: 35px;
+}
+
+.btn {
+  border: none;
+  padding: 21px 54px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
 }
 
 .main-nav {
@@ -126,16 +135,21 @@ body {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  gap: 35px;
 }
 .services-card_subItem {
   display: inline-block;
   overflow: hidden;
-  border-radius: 500px;
+}
+.services-card_items {
   border: solid 1px #ffffff;
+  border-radius: 500px;
+  padding: 10px;
 }
 .services-card_item {
   overflow: hidden;
   display: block;
+  border-radius: 500px;
 }
 .services-card_title {
   font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
