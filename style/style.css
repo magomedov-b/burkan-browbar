@@ -113,14 +113,21 @@ body {
   color: #e66445;
 }
 
+.services {
+  background-color: #A5644E;
+}
 .services-card {
   display: flex;
 }
-.services-card_img {
-  border-right: 500px;
+.services-card_title {
+  font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
+  text-align: center;
+  font-size: 55px;
+  line-height: 68px;
 }
-.adad {
-  font-size: 150px;
+.services-card_img {
+  border-radius: 500px;
+  border: solid 1px #ffffff;
 }
 
 .main-block_flex {

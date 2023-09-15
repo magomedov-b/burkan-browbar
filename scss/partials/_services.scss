@@ -1,19 +1,25 @@
 .services {
+  background-color: #A5644E;
 
   &-card {
     display: flex;
 
-    &_img {
-      border-right: 500px;
-
+    &_title {
+      font-family: $title-family;
+      text-align: center;
+      font-size: 55px;
+      line-height: 68px;
     }
 
     &_client {
 
     }
+
+    &_img {
+      border-radius: 500px;
+      border: solid 1px #ffffff;
+
+    }
   }
 }
 
-.adad {
-  font-size: 150px;
-}
