@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -60,4 +60,10 @@ body {
   font-size: $title-size;
   font-family: $title-family;
   font-weight: 300;
+}
+
+.subtitle {
+  font-size: $subtitle-size;
+  color: $subtitle-color;
+  line-height: 35px;
 }

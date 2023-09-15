@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -67,6 +67,12 @@ body {
   font-size: 55px;
   font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
   font-weight: 300;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #625e5c;
+  line-height: 35px;
 }
 
 .main-nav {
@@ -115,6 +121,90 @@ body {
 }
 .adad {
   font-size: 150px;
+}
+
+.main-block_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-block_description {
+  width: 50%;
+}
+.main-block_title {
+  font-size: 70px;
+  line-height: 70px;
+  margin: 0;
+}
+.main-block_button {
+  background-color: #e66445;
+  border: none;
+  padding: 21px 54px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+}
+.main-block_showroom {
+  width: 50%;
+}
+.main-block_img-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+}
+.main-block_img {
+  border-radius: 500px 500px 0px 0px;
+  padding: 10px;
+  border: 1px solid #949190;
+}
+.main-block_spin {
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+.main-block_spin_text {
+  letter-spacing: 1.7px;
+}
+.main-block_spin:hover i {
+  background-color: #e66445;
+}
+.main-block_icon-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(9.5% 0.5%, 91% 50%, 9.5% 99.5%);
+  width: 37px;
+  height: 37px;
+  font-size: 37px;
+  line-height: 1;
+  transition: background-color 0.3s, color 0.3s;
+}
+.main-block_icon-play_svg {
+  opacity: 1;
+  stroke-width: 3px;
+  fill: none;
+  width: 1.1em;
+  stroke: #e66445;
+  height: 1em;
+  -webkit-transition: stroke 0.3s;
+  transition: stroke 0.3s;
+}
+
+#rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

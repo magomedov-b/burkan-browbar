@@ -1,0 +1,90 @@
+.main-block {
+  &_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_description {
+    width: 50%;
+  }
+  &_title {
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0;
+  }
+  &_button {
+    background-color: $special-color;
+    border: none;
+    padding: 21px 54px;
+    color: #fff;
+    font-size: 18px;
+    font-family: $subtitle-family;
+  }
+  &_showroom {
+    width: 50%;
+  }
+  &_img-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+  }
+  &_img {
+    border-radius: 500px 500px 0px 0px;
+    padding: 10px;
+    border: 1px solid #949190;
+  }
+  &_spin {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    &_text {
+      letter-spacing: 1.7px;
+    }
+    &:hover {
+      i {
+        background-color: $special-color;
+      }
+    }
+  }
+
+  &_icon-play {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    clip-path: polygon(9.5% 0.5%, 91% 50%, 9.5% 99.5%);
+    width: 37px;
+    height: 37px;
+    font-size: 37px;
+    line-height: 1;
+    transition: background-color 0.3s, color 0.3s ;
+
+
+    &_svg {
+      opacity: 1;
+      stroke-width: 3px;
+      fill: none;
+      width: 1.1em;
+      stroke: $special-color;
+      height: 1em;
+      -webkit-transition: stroke 0.3s;
+      transition: stroke 0.3s;
+    }
+  }
+}
+
+#rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(1turn);
+  }
+}
