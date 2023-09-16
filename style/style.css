@@ -356,4 +356,49 @@ body {
   background-color: #e66445;
 }
 
+.icon-services-6 {
+  display: block;
+  font-size: 450px;
+}
+
+.icon-services-6:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  content: "\e81d";
+}
+
+.about-us {
+  background: url("../../assets/page-title-3.jpg") no-repeat;
+  background-size: cover;
+}
+.about-us_main-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 11% 0;
+}
+.about-us_main-block_title {
+  font-size: 80px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about-us_main-block_special {
+  position: absolute;
+  bottom: -100px;
+  text-align: right;
+  align-self: flex-end;
+  font-size: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
