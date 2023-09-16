@@ -46,12 +46,15 @@
       display: flex;
       justify-content: right;
       align-items: center;
+      flex-wrap: wrap;
     }
 
     &_img {
       display: block;
       transition: 1s;
       border-radius: 500px;
+      width: 286px;
+      height: 399px;
       transform: scale(1.1);
 
       &:hover {

@@ -169,11 +169,14 @@ body {
   display: flex;
   justify-content: right;
   align-items: center;
+  flex-wrap: wrap;
 }
 .services-card_img {
   display: block;
   transition: 1s;
   border-radius: 500px;
+  width: 286px;
+  height: 399px;
   transform: scale(1.1);
 }
 .services-card_img:hover {
@@ -315,6 +318,33 @@ body {
 }
 .team-card_link:hover {
   color: #171412;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiperimg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next {
+  color: #e66445;
+}
+.swiper-button-prev {
+  color: #e66445;
+}
+.swiper-pagination-bullet-active {
+  background-color: #e66445;
 }
 
 /*# sourceMappingURL=style.css.map */
