@@ -159,6 +159,11 @@ body {
   color: #FAF6F5;
   padding-top: 80px;
 }
+.services-card_subtitle {
+  color: #fff;
+  font-size: 18px;
+  line-height: 35px;
+}
 .services-card_special {
   margin-left: -20px;
   width: 35%;
