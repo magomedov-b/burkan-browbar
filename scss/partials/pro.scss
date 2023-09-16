@@ -4,39 +4,44 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
+    width: 50%;
+    margin: auto;
     &_title {
+      display: inline-block;
       font-size: $title-size;
       line-height: 68px;
+      margin-bottom: 10px;
     }
     &_special {
+      display: block;
       font-size: 80px;
       line-height: 80px;
-      margin-left: -20px;
+      position: absolute;
+      right: -32%;
+      top: 9%;
+      margin-bottom: 10px;
     }
   }
 
   &-cards {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
 
   }
   &-card {
 
 
-
     &_img {
 
-      &_photo {
 
-      }
     }
     &_title {
 
       &_text {
         font-size: 20px;
         line-height: 35px;
-        font-weight: 300;
+        font-weight: 500;
         color: $title-color;
         font-family: $subtitle-family;
       }
@@ -46,10 +51,39 @@
       &_text {
         font-size: 18px;
         line-height: 35px;
-        font-weight: 250;
+        font-weight: 100;
         color: $subtitle-color;
         font-family: $subtitle-family;
       }
     }
+  }
+}
+
+.icon-eyelashes-care {
+    font-size: 70px;
+  color: $special-color;
+    &::before {
+      content: '\e808';
+  }
+}
+.icon-hair-follicle {
+    font-size: 70px;
+  color: $special-color;
+    &::before {
+      content: '\e80b';
+  }
+}
+.icon-hair-cosmetics {
+    font-size: 70px;
+  color: $special-color;
+    &::before {
+      content: '\e809';
+  }
+}
+.icon-natural-ingredients {
+    font-size: 70px;
+  color: $special-color;
+    &::before {
+      content: '\e814';
   }
 }

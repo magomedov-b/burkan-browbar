@@ -405,34 +405,74 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+  position: relative;
+  width: 50%;
+  margin: auto;
 }
 .pro-main_title {
+  display: inline-block;
   font-size: 55px;
   line-height: 68px;
+  margin-bottom: 10px;
 }
 .pro-main_special {
+  display: block;
   font-size: 80px;
   line-height: 80px;
-  margin-left: -20px;
+  position: absolute;
+  right: -32%;
+  top: 9%;
+  margin-bottom: 10px;
 }
 .pro-cards {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
 }
 .pro-card_title_text {
   font-size: 20px;
   line-height: 35px;
-  font-weight: 300;
+  font-weight: 500;
   color: #171412;
   font-family: "Manrope", sans-serif, "Arial", "Helvetica";
 }
 .pro-card_subtitle_text {
   font-size: 18px;
   line-height: 35px;
-  font-weight: 250;
+  font-weight: 100;
   color: #625e5c;
   font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+}
+
+.icon-eyelashes-care {
+  font-size: 70px;
+  color: #e66445;
+}
+.icon-eyelashes-care::before {
+  content: "\e808";
+}
+
+.icon-hair-follicle {
+  font-size: 70px;
+  color: #e66445;
+}
+.icon-hair-follicle::before {
+  content: "\e80b";
+}
+
+.icon-hair-cosmetics {
+  font-size: 70px;
+  color: #e66445;
+}
+.icon-hair-cosmetics::before {
+  content: "\e809";
+}
+
+.icon-natural-ingredients {
+  font-size: 70px;
+  color: #e66445;
+}
+.icon-natural-ingredients::before {
+  content: "\e814";
 }
 
 .icon-services-6 {
