@@ -436,14 +436,51 @@ body {
 }
 
 .icon-services-6 {
-  font-size: 416px;
+  font-size: 611px;
 }
 .icon-services-6::before {
   content: "\e81d";
 }
 
+.words {
+  overflow: hidden;
+}
+.words_text-block {
+  width: 60%;
+}
 .words_block {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.words_titles {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.words_title {
+  white-space: nowrap;
+  margin: 0;
+}
+.words_bold {
+  margin-top: 20px;
+}
+.words_special-title {
+  margin-left: -20px;
+}
+.words_subtitle {
+  color: #171412;
+  margin: 20px 0;
+}
+.words_special {
+  color: #171412;
+  font-size: 50px;
+  margin-left: 80px;
+}
+.words_authors {
+  margin: 20px 1px;
+  display: flex;
+  justify-content: left;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .icon-services-6 {
-  font-size: 416px;
+  font-size: 611px;
   &::before {
     content: '\e81d';
   }
@@ -7,7 +7,51 @@
 
 .words {
 
+  &_text-block {
+    width: 60%;
+  }
+
+  overflow: hidden;
   &_block {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
+
+  &_titles {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  &_title {
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  &_bold {
+    margin-top: 20px;
+  }
+
+  &_special-title {
+    margin-left: -20px;
+  }
+  
+  &_subtitle {
+    color: $title-color;
+    margin: 20px 0;
+  }
+
+  &_special {
+    color: $title-color;
+    font-size: 50px;
+    margin-left: 80px;
+  }
+
+  &_authors {
+    margin: 20px 1px;
+    display: flex;
+    justify-content: left;
+  }
+
 }
