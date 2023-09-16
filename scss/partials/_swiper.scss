@@ -2,6 +2,7 @@
 .swiper {
   width: 100%;
   height: 100%;
+  padding-bottom: 50px;
   &-slide {
     text-align: center;
     font-size: 18px;
@@ -23,6 +24,10 @@
 
   &-button-prev {
     color: $special-color;
+  }
+
+  &-pagination {
+    padding-bottom: 25px;
   }
 
   &-pagination-bullet-active {

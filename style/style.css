@@ -328,6 +328,7 @@ body {
 .swiper {
   width: 100%;
   height: 100%;
+  padding-bottom: 50px;
 }
 .swiper-slide {
   text-align: center;
@@ -347,6 +348,9 @@ body {
 }
 .swiper-button-prev {
   color: #e66445;
+}
+.swiper-pagination {
+  padding-bottom: 25px;
 }
 .swiper-pagination-bullet-active {
   background-color: #e66445;
