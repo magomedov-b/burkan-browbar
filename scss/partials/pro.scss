@@ -1,0 +1,41 @@
+.pro {
+
+  &-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    &_title {
+      font-size: 55px;
+      line-height: 68px;
+    }
+    &_special {
+      font-size: 80px;
+      line-height: 80px;
+    }
+  }
+  &-cards {
+
+
+  }
+  &-card {
+
+    &_img {
+
+      &_photo {
+
+      }
+    }
+    &_title {
+
+      &_text {
+
+      }
+    }
+    &_subtitle {
+
+      &_text {
+
+      }
+    }
+  }
+}

@@ -356,4 +356,18 @@ body {
   background-color: #e66445;
 }
 
+.pro-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.pro-main_title {
+  font-size: 55px;
+  line-height: 68px;
+}
+.pro-main_special {
+  font-size: 80px;
+  line-height: 80px;
+}
+
 /*# sourceMappingURL=style.css.map */
