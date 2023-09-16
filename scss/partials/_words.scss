@@ -1,0 +1,13 @@
+.icon-services-6 {
+  font-size: 416px;
+  &::before {
+    content: '\e81d';
+  }
+}
+
+.words {
+
+  &_block {
+    display: flex;
+  }
+}
