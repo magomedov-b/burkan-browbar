@@ -522,11 +522,11 @@ body {
   justify-content: left;
 }
 
-.faq-main {
-  background-color: #F1ECE9;
-}
 .faq-questions {
   background-color: #F1ECE9;
+}
+.faq-questions .faq-categories_link_list_item {
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

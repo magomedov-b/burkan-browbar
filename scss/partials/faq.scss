@@ -1,5 +1,5 @@
  .faq-main {
-    background-color: $background-color;
+
    &_title {
 
      &_text {
@@ -18,5 +18,23 @@
    }
    &_titles {
 
+   }
+   .faq-categories {
+
+
+     &_link {
+
+
+       &_navlink {
+
+       }
+
+       &_list {
+
+         &_item {
+           list-style: none;
+         }
+       }
+     }
    }
  }
