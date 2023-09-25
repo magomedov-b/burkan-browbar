@@ -1,0 +1,160 @@
+.faq-main {
+
+  background: url("../../assets/FAQ/faq.jpg") no-repeat;
+  background-size: cover;
+  height: 613px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_title {
+
+    &_text {
+      font-size: 80px;
+      line-height: 96px;
+      font-family: $title-family;
+      color: #fff;
+    }
+  }
+}
+
+.faq {
+
+  &-wrap {
+
+  }
+  .faq-questions {
+
+    &_title {
+
+      &_text {
+        font-family: $subtitle-family;
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 50px;
+        color: $title-color;
+      }
+    }
+
+    &_titles {
+
+      &_title {
+        font-family: $subtitle-family;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 100;
+        color: $title-color;
+      }
+      &_text {
+        font-family: $subtitle-family;
+        font-size: 18px;
+        line-height: 35px;
+        font-weight: 100;
+        color: $subtitle-color;
+
+      }
+    }
+  }
+
+
+
+  .faq-categories {
+
+
+    &_link {
+
+
+      &_navlink {
+
+      }
+
+      &_list {
+
+        &_item {
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+
+}
+
+.last {
+  border-bottom: 1px solid $title-color;
+}
+
+.item {
+
+
+  &-text {
+
+  }
+}
+
+.subItems {
+
+}
+
+.faq-titles {
+
+  &_title {
+
+    &_text {
+      font-family: $subtitle-family;
+      color: $subtitle-color;
+      font-size: 25px;
+      line-height: 40px;
+      font-weight: 100;
+    }
+  }
+
+  &_subtitle {
+
+    &_text {
+      font-family: $subtitle-family;
+      color: $subtitle-color;
+      font-size: 18px;
+      line-height: 35px;
+      font-weight: 100;
+    }
+  }
+
+}
+
+.faq-wrap {
+  display: flex;
+}
+
+.banner {
+
+  &-img {
+
+  }
+}
+
+.footer {
+  background-color: $footer-background;
+}
+
+.wrapper {
+
+}
+
+.items {
+
+
+  &-first {
+
+    &_block {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &-second {
+    display: flex;
+  }
+}

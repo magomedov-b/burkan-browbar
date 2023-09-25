@@ -70,6 +70,22 @@ body {
   font-weight: 300;
 }
 
+.footer-title {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
+  font-weight: 100;
+  line-height: 40px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  color: #fff;
+}
+
 .special-title {
   color: #e66445;
   font-family: "Caramello-free", sans-serif;
@@ -523,11 +539,79 @@ body {
   justify-content: left;
 }
 
-.faq-questions {
-  background-color: #F1ECE9;
+.faq-main {
+  background: url("../../assets/FAQ/faq.jpg") no-repeat;
+  background-size: cover;
+  height: 613px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.faq-questions .faq-categories_link_list_item {
+.faq-main_title_text {
+  font-size: 80px;
+  line-height: 96px;
+  font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
+  color: #fff;
+}
+
+.faq .faq-questions_title_text {
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  font-size: 35px;
+  font-weight: 100;
+  line-height: 50px;
+  color: #171412;
+}
+.faq .faq-questions_titles_title {
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 100;
+  color: #171412;
+}
+.faq .faq-questions_titles_text {
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 100;
+  color: #625e5c;
+}
+.faq .faq-categories_link_list_item {
   list-style: none;
+}
+
+.last {
+  border-bottom: 1px solid #171412;
+}
+
+.faq-titles_title_text {
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  color: #625e5c;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 100;
+}
+.faq-titles_subtitle_text {
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  color: #625e5c;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 100;
+}
+
+.faq-wrap {
+  display: flex;
+}
+
+.footer {
+  background-color: #403732;
+}
+
+.items-first_block {
+  display: flex;
+  justify-content: space-between;
+}
+.items-second {
+  display: flex;
 }
 
 .pricing {

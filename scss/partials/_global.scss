@@ -63,6 +63,22 @@ body {
   font-weight: 300;
 }
 
+.footer-title {
+  color: $footer-color;
+  font-size: 25px;
+  font-family: $title-family;
+  font-weight: 100;
+  line-height: 40px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  font-family: $subtitle-family;
+  color: $footer-color;
+}
+
 .special-title {
   color: $special-color;
   font-family: $special-family;
