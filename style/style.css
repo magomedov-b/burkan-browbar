@@ -13,6 +13,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -129,7 +130,7 @@ body {
 }
 
 .services {
-  background-color: #A5644E;
+  background-color: #864c36;
 }
 .services-card {
   display: flex;
@@ -527,6 +528,372 @@ body {
 }
 .faq-questions .faq-categories_link_list_item {
   list-style: none;
+}
+
+.pricing {
+  background: url(../../assets/pricing/pricing-bg.jpg) no-repeat center;
+}
+.pricing-main_block {
+  padding: 10% 0;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-main_title {
+  color: #fff;
+  font-size: 80px;
+}
+.pricing-main_specials {
+  position: absolute;
+  left: 65%;
+  bottom: -40%;
+  transform: translate(-50%, -50%);
+  font-size: 180px;
+  white-space: nowrap;
+}
+.pricing-plans_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pricing-plans_card {
+  border: 1px solid black;
+  padding: 52px 52px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.pricing-plans_card_title {
+  font-size: 25px;
+  font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
+  font-weight: normal;
+  color: #171412;
+  margin-bottom: 12px;
+}
+.pricing-plans_card_special {
+  font-size: 40px;
+  font-family: "Kinghoot", sans-serif, "Arial", "Helvetica";
+  font-weight: normal;
+  color: #e66445;
+  margin-bottom: 50px;
+  line-height: 63px;
+}
+.pricing-plans_card_list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 57px;
+}
+.pricing-plans_card_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 27px;
+  margin-bottom: 14px;
+}
+.pricing-plans_card_item:last-child {
+  border-bottom: none;
+}
+.pricing-plans_card_item::after {
+  font: 400 normal 18px/24px "fontello";
+  width: 18px;
+  height: 24px;
+  display: inline-block;
+  content: "\e802";
+}
+.pricing-plans_card_button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #625e5c;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 21px 54px;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  font-weight: normal;
+  cursor: pointer;
+}
+.pricing-plans_card_button:hover {
+  background: #db421d;
+}
+
+.best_images-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.best-card {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+}
+.best_image-block {
+  padding: 20%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best_image-block_right {
+  background: url(../../assets/pricing/epilation.jpg) no-repeat center;
+  background-size: 100%;
+}
+.best_image-block_left {
+  background: url(../../assets/pricing/cosmetology-bg.jpg) no-repeat center;
+  background-size: 100%;
+}
+.best_image-block_title {
+  color: #fff;
+  font-size: 35px;
+}
+.best-menu {
+  display: flex;
+  flex-direction: column;
+}
+.best-menu_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #757575;
+}
+.best-menu_item:last-child {
+  border-bottom: none;
+}
+.best-menu_item_title {
+  font-size: 20px;
+}
+.best-menu_link {
+  font-size: 20px;
+  color: #171412;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+}
+.best-menu_link:hover {
+  color: #e66445;
+}
+.best-menu_description {
+  color: #171412;
+  font-size: 16px;
+  margin: 5px 0;
+}
+.best-menu_price {
+  font-size: 14px;
+  color: #fff;
+  padding: 8px;
+  background: #000;
+}
+
+.eyebrows {
+  padding: 5% 0 5% 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.eyebrows-block {
+  background: url("../../assets/eyebrow-bg.jpg") no-repeat center;
+}
+.eyebrows_special {
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+.eyebrows_title {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 65px;
+}
+.eyebrows_subtitle {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.eyebrows_button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 14px;
+  padding: 21px 54px;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  font-weight: normal;
+  cursor: pointer;
+}
+.eyebrows_button:hover {
+  background: #db421d;
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 34px;
+    line-height: 1em;
+    text-align: center;
+    margin: 0;
+  }
+  .subtitle {
+    line-height: 1.5em;
+  }
+  .special-title {
+    font-size: 41px;
+    line-height: 41px;
+    text-align: center;
+  }
+  .main-block_flex {
+    flex-direction: column;
+  }
+  .main-block_title {
+    font-size: 34px;
+    line-height: 1em;
+    text-align: center;
+  }
+  .main-block_subtitle {
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .main-block_description {
+    width: 100%;
+    text-align: center;
+  }
+  .main-block_showroom {
+    width: 100%;
+  }
+  .main-block_img-block {
+    flex-direction: column;
+  }
+  .main-block_spin {
+    left: -9%;
+    top: 17px;
+  }
+  .main-block_img {
+    width: 75%;
+    margin: 42px auto 0;
+  }
+  .services-card_client {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-card_title {
+    font-size: 34px;
+    line-height: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 45px;
+  }
+  .services-card_special {
+    margin: 0;
+    width: 100%;
+    font-size: 41px;
+    line-height: 41px;
+    text-align: center;
+  }
+  .team_titles {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .team_cards {
+    flex-direction: column;
+  }
+  .team-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .team-card_img {
+    width: 100%;
+  }
+  .eyebrows {
+    padding: 100px 0;
+    align-items: center;
+  }
+  .eyebrows-block {
+    background-position: -700px;
+  }
+  .eyebrows_subtitle {
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .pro {
+    margin-top: 50px;
+  }
+  .pro-main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .pro-main_special {
+    position: static;
+    margin: 20px;
+  }
+  .pro-cards {
+    flex-direction: column;
+  }
+  .pro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .pro-card_title_text {
+    margin: 5px;
+  }
+  .pro-card_subtitle_text {
+    margin: 5px 0 20px 0;
+  }
+  .words_titles {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .words_title {
+    margin-bottom: 10px;
+  }
+  .words_special {
+    margin-left: 50px;
+  }
+  .pricing {
+    background-position: -1000px;
+    margin-bottom: 30px;
+  }
+  .pricing-main_block {
+    padding: 50% 0;
+  }
+  .pricing-plans_cards {
+    flex-direction: column;
+  }
+  .pricing-plans_card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .pricing-plans_card_special {
+    margin: 0;
+    width: 100%;
+    font-size: 41px;
+    line-height: 41px;
+    text-align: center;
+  }
+  .best_images-block {
+    flex-direction: column;
+  }
+  .best-card {
+    width: 100%;
+  }
+  .best-menu_item {
+    flex-direction: column;
+    align-items: start;
+  }
+  .best-menu_text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .best-menu_link {
+    font-size: 20px;
+  }
+  .best-menu_price {
+    padding: 12px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

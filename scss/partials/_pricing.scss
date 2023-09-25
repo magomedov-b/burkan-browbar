@@ -1,0 +1,168 @@
+.pricing {
+  background: url(../../assets/pricing/pricing-bg.jpg) no-repeat center;
+  &-main {
+    &_block {
+      padding: 10% 0;
+      position: relative;
+      overflow: hidden;
+    }
+    &_title {
+      color: #fff;
+      font-size: 80px;
+    }
+
+    &_specials {
+      position: absolute;
+      left: 65%;
+      bottom: -40%;
+      transform: translate(-50%, -50%);
+      font-size: 180px;
+      white-space: nowrap;
+    }
+  }
+
+  &-plans_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-plans_card {
+    border: 1px solid black;
+    padding: 52px 52px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    &_title {
+      font-size: 25px;
+      font-family: $title-family;
+      font-weight: normal;
+      color: $title-color;
+      margin-bottom: 12px;
+    }
+    &_special {
+      font-size: 40px;
+      font-family: $title-family;
+      font-weight: normal;
+      color: $special-color;
+      margin-bottom: 50px;
+      line-height: 63px;
+    }
+
+    &_list {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      margin-bottom: 57px;
+    }
+
+    &_item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      line-height: 27px;
+      margin-bottom: 14px;
+      &:last-child {
+        border-bottom: none;
+      }
+      &::after {
+        font: 400 normal 18px/24px 'fontello';
+        width: 18px;
+        height: 24px;
+        display: inline-block;
+        content: '\e802';
+      }
+    }
+
+    &_button {
+      padding: 10px 20px;
+      background-color: transparent;
+      color: $subtitle-color;
+      border: 1px solid black;
+      font-size: 14px;
+      padding: 21px 54px;
+      font-family: $subtitle-family;
+      font-weight: normal;
+      cursor: pointer;
+      &:hover {
+        background: darken($special-color, 10%);
+      }
+    }
+  }
+}
+
+.best {
+  &_images-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-card {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_image-block {
+    padding: 20%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_right {
+      background: url(../../assets/pricing/epilation.jpg) no-repeat center;
+      background-size: 100%;
+    }
+    &_left {
+      background: url(../../assets/pricing/cosmetology-bg.jpg) no-repeat center;
+      background-size: 100%;
+    }
+    &_title {
+      color: #fff;
+      font-size: 35px;
+    }
+  }
+
+  &-menu {
+    display: flex;
+    flex-direction: column;
+    &_item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #757575;
+      &:last-child {
+        border-bottom: none;
+      }
+      &_title {
+        font-size: 20px;
+      }
+
+    }
+    &_link {
+      font-size: 20px;
+      color: $title-color;
+      text-decoration: none;
+      font-family: $subtitle-family;
+      &:hover {
+        color: $special-color;
+      }
+    }
+    &_description {
+      color: $title-color;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+    &_price {
+      font-size: 14px;
+      color: #fff;
+      padding: 8px;
+      background: #000;
+    }
+  }
+}

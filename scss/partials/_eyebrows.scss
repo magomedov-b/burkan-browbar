@@ -1,0 +1,42 @@
+.eyebrows {
+  padding: 5% 0 5% 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  &-block {
+    background: url('../../assets/eyebrow-bg.jpg') no-repeat center;
+  }
+
+  &_special {
+    margin-bottom: 20px;
+    font-size: 80px;
+  }
+
+  &_title {
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 65px;
+  }
+
+  &_subtitle {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  &_button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    padding: 21px 54px;
+    font-family: $subtitle-family;
+    font-weight: normal;
+    cursor: pointer;
+    &:hover {
+      background: darken($special-color, 10%);
+    }
+  }
+}

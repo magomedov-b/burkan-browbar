@@ -1,0 +1,225 @@
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 34px;
+    line-height: 1em;
+    text-align: center;
+    margin: 0;
+  }
+
+  .subtitle {
+    line-height: 1.5em;
+  }
+
+  .special-title {
+    font-size: 41px;
+    line-height: 41px;
+    text-align: center;
+  }
+
+  .main-block {
+    &_flex {
+      flex-direction: column;
+    }
+
+    &_title {
+      font-size: 34px;
+      line-height: 1em;
+      text-align: center;
+    }
+
+    &_subtitle {
+      line-height: 1.5em;
+      text-align: center;
+    }
+
+    &_description {
+      width: 100%;
+      text-align: center;
+    }
+
+    &_showroom {
+      width: 100%;
+    }
+
+    &_img-block {
+      flex-direction: column;
+    }
+
+    &_spin {
+      left: -9%;
+      top: 17px;
+    }
+
+    &_img {
+      width: 75%;
+      margin: 42px auto 0;
+    }
+  }
+
+  .services {
+    &-card {
+      &_client {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &_title {
+        font-size: 34px;
+        line-height: 1em;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 45px;
+      }
+
+      &_special {
+        margin: 0;
+        width: 100%;
+        font-size: 41px;
+        line-height: 41px;
+        text-align: center;
+      }
+    }
+  }
+
+  .team {
+    &_titles {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    &_cards {
+      flex-direction: column;
+    }
+
+    &-card {
+      width: 100%;
+      margin-bottom: 30px;
+      &_img {
+        width: 100%;
+      }
+    }
+  }
+
+  .eyebrows {
+    padding: 100px 0;
+    align-items: center;
+
+    &-block {
+      background-position: -700px;
+    }
+
+    &_subtitle {
+      text-align: center;
+      line-height: 1.5em;
+    }
+  }
+
+  .pro {
+    margin-top: 50px;
+    &-main {
+      flex-direction: column;
+      width: 100%;
+
+      &_special {
+        position: static;
+        margin: 20px;
+      }
+    }
+
+    &-cards {
+      flex-direction: column;
+    }
+
+    &-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      &_title_text {
+        margin: 5px;
+      }
+
+      &_subtitle_text {
+        margin: 5px 0 20px 0;
+      }
+    }
+  }
+
+  .words {
+    &_titles {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    &_title {
+      margin-bottom: 10px;
+    }
+
+    &_special {
+      margin-left: 50px;
+    }
+  }
+
+  .pricing {
+    background-position: -1000px;
+    margin-bottom: 30px;
+
+    &-main {
+      &_block {
+        padding: 50% 0;
+      }
+    }
+
+    &-plans_cards {
+      flex-direction: column;
+    }
+
+    &-plans_card {
+      width: 100%;
+      margin-bottom: 30px;
+
+      &_special {
+        margin: 0;
+        width: 100%;
+        font-size: 41px;
+        line-height: 41px;
+        text-align: center;
+      }
+    }
+  }
+
+  .best {
+    &_images-block {
+      flex-direction: column;
+    }
+
+    &-card {
+      width: 100%;
+    }
+
+    &-menu {
+      &_item {
+        flex-direction: column;
+        align-items: start;
+      }
+
+      &_text {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      &_link {
+        font-size: 20px;
+      }
+
+      &_price {
+        padding: 12px;
+      }
+    }
+  }
+}
