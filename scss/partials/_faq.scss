@@ -1,13 +1,10 @@
 .faq-main {
-
-  background: url("../../assets/FAQ/faq.jpg") no-repeat;
+  background: url("../../assets/FAQ/faq.jpg") no-repeat center;
   background-size: cover;
-  height: 613px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  padding: 15% 0;
+  text-align: center;
   &_title {
+
 
     &_text {
       font-size: 80px;
@@ -135,26 +132,32 @@
   }
 }
 
-.footer {
-  background-color: $footer-background;
+
+
+//BOOTSTRAP
+
+.accordion-button {
+  background-color: $background-color;
+
 }
 
-.wrapper {
-
+.accordion-body {
+  background-color: $background-color;
+  font-family: $subtitle-family;
+  color: $subtitle-color;
+  font-size: 18px;
+  line-height: 35px;
 }
 
-.items {
+.collapsed {
+font-family: $subtitle-family;
+color: $title-color;
+}
 
+.accordion-button:focus {
+  box-shadow: none;
+}
 
-  &-first {
-
-    &_block {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-
-  &-second {
-    display: flex;
-  }
+.accordion-button:not(.collapsed) {
+  background-color: $background-color;
 }

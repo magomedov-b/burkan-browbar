@@ -96,6 +96,7 @@
     &-card {
       width: 100%;
       margin-bottom: 30px;
+
       &_img {
         width: 100%;
       }
@@ -118,6 +119,7 @@
 
   .pro {
     margin-top: 50px;
+
     &-main {
       flex-direction: column;
       width: 100%;
@@ -221,5 +223,11 @@
         padding: 12px;
       }
     }
+  }
+
+  .items-first_block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }

@@ -1,0 +1,24 @@
+.footer {
+
+  background-color: $footer-background;
+}
+
+.wrapper {
+
+}
+
+.items {
+
+
+  &-first {
+
+    &_block {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &-second {
+    display: flex;
+  }
+}

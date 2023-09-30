@@ -540,12 +540,10 @@ body {
 }
 
 .faq-main {
-  background: url("../../assets/FAQ/faq.jpg") no-repeat;
+  background: url("../../assets/FAQ/faq.jpg") no-repeat center;
   background-size: cover;
-  height: 613px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 15% 0;
+  text-align: center;
 }
 .faq-main_title_text {
   font-size: 80px;
@@ -602,20 +600,34 @@ body {
   display: flex;
 }
 
-.footer {
-  background-color: #403732;
+.accordion-button {
+  background-color: #F1ECE9;
 }
 
-.items-first_block {
-  display: flex;
-  justify-content: space-between;
+.accordion-body {
+  background-color: #F1ECE9;
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  color: #625e5c;
+  font-size: 18px;
+  line-height: 35px;
 }
-.items-second {
-  display: flex;
+
+.collapsed {
+  font-family: "Manrope", sans-serif, "Arial", "Helvetica";
+  color: #171412;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #F1ECE9;
 }
 
 .pricing {
   background: url(../../assets/pricing/pricing-bg.jpg) no-repeat center;
+  background-size: cover;
 }
 .pricing-main_block {
   padding: 10% 0;
@@ -978,6 +990,22 @@ body {
   .best-menu_price {
     padding: 12px;
   }
+  .items-first_block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.footer {
+  background-color: #403732;
+}
+
+.items-first_block {
+  display: flex;
+  justify-content: space-between;
+}
+.items-second {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
